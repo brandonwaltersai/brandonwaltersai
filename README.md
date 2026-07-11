@@ -25,7 +25,6 @@ business case attached, not just a notebook.
 |---|---|
 | [rag-capstone-qa](https://github.com/brandonwaltersai/rag-capstone-qa) | Retrieval-grounded QA with a hard citation gate and pre-retrieval safety escalation — 100% grounded answer rate, 88.3% escalation appropriateness |
 | [ai-service-delivery](https://github.com/brandonwaltersai/ai-service-delivery) | Complaint-triage classifier on public CFPB data, served via FastAPI with a low-confidence human-review flag — macro F1 0.76 vs. 0.04 baseline. Includes a full [delivery case study](https://github.com/brandonwaltersai/ai-service-delivery/blob/main/docs/delivery_case_study.md) (charter, milestones, risk log) |
-| [cyber-osint-agent](https://github.com/brandonwaltersai/cyber-osint-agent) | Defensive security tool: CISA KEV feed → IOC extraction → rule-based Splunk detection drafts, dry-run only by design |
 | [deepdream-experiment-runner](https://github.com/brandonwaltersai/deepdream-experiment-runner) | Batch DeepDream on InceptionV3 with tiled gradients and a runner that survives individual failures — verified with a real executed run |
 
 **Applied ML & analytics**
@@ -46,7 +45,7 @@ business case attached, not just a notebook.
 | [audio-transcription-tool](https://github.com/brandonwaltersai/audio-transcription-tool) | Batch audio-to-text (faster-whisper) with presets, long-audio chunking, multi-format subtitle output |
 | [pdf-unlock-utility](https://github.com/brandonwaltersai/pdf-unlock-utility) | Candidate-password PDF decryption (not brute force) — authorized use only |
 
-*(rag-capstone-qa and ai-service-delivery are public; the rest are private, pending review.)*
+*(All repos above are currently private, pending review before going public.)*
 
 ## Connect
 [LinkedIn](https://linkedin.com/in/brandon-walters-172b29208)
