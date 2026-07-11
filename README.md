@@ -26,6 +26,7 @@ business case attached, not just a notebook.
 | [rag-capstone-qa](https://github.com/brandonwaltersai/rag-capstone-qa) | Retrieval-grounded QA with a hard citation gate and pre-retrieval safety escalation — 100% grounded answer rate, 88.3% escalation appropriateness |
 | [ai-service-delivery](https://github.com/brandonwaltersai/ai-service-delivery) | Complaint-triage classifier on public CFPB data, served via FastAPI with a low-confidence human-review flag — macro F1 0.76 vs. 0.04 baseline. Includes a full [delivery case study](https://github.com/brandonwaltersai/ai-service-delivery/blob/main/docs/delivery_case_study.md) (charter, milestones, risk log) |
 | [deepdream-experiment-runner](https://github.com/brandonwaltersai/deepdream-experiment-runner) | Batch DeepDream on InceptionV3 with tiled gradients and a runner that survives individual failures — verified with a real executed run |
+| [deep-learning-computer-vision](https://github.com/brandonwaltersai/deep-learning-computer-vision) | CNN architecture search on Fashion-MNIST (5 variants, 91.86% baseline test accuracy) paired with a DCGAN trained from scratch for 40 epochs — real generated samples and loss curves |
 
 **Applied ML & analytics**
 
