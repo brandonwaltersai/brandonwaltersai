@@ -59,4 +59,4 @@ Fashion-MNIST.
 *(Flagship repos above are public; additional work is private, pending review.)*
 
 ## Connect
-[LinkedIn](https://linkedin.com/in/brandon-walters-172b29208)
+[LinkedIn](https://www.linkedin.com/in/bw172b29208/)
