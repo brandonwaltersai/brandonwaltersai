@@ -28,7 +28,7 @@ business case attached, not just a notebook.
 | [youtube-transcript-fetcher](https://github.com/brandonwaltersai/youtube-transcript-fetcher) | Resilient batch transcript pipeline: runtime API-version detection, retry/backoff, transcript quality checks |
 | [applied-ml-notebooks](https://github.com/brandonwaltersai/applied-ml-notebooks) | Feature selection (4 methods combined, RMSE 0.146) and NLP/clustering fundamentals |
 
-*(rag-capstone-qa and ai-service-delivery are public; the rest are private, pending review.)*
+*(All repos above are currently private, pending review before going public.)*
 
 ## Connect
 [LinkedIn](https://linkedin.com/in/brandon-walters-172b29208)
