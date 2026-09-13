@@ -28,16 +28,16 @@ My work combines hands-on AI/ML engineering with 20+ years across cybersecurity,
 | [rag-capstone-qa](https://github.com/brandonwaltersai/rag-capstone-qa) | Retrieval-grounded QA with hybrid retrieval, hard citation validation, pre-generation safety escalation, and reproducible evaluation — 100% grounded-answer rate, 96.7% retrieval coverage, 88.3% escalation appropriateness |
 | [ai-service-delivery](https://github.com/brandonwaltersai/ai-service-delivery) | Nine-class complaint-triage service on public CFPB data, served through FastAPI with Docker, tests, PII handling, model governance, and low-confidence human review — macro-F1 0.760 vs. 0.042 baseline |
 | [distributed-ml-svm-benchmark](https://github.com/brandonwaltersai/distributed-ml-svm-benchmark) | Spark MLlib LinearSVC versus nonlinear RBF SVM under class imbalance — ~3 min versus ~43 min training, exposing the tradeoff between distributed speed/raw accuracy and minority-class recall/balanced accuracy |
+| [zero-shot-reliability](https://github.com/brandonwaltersai/zero-shot-reliability) | CLIP label-set sensitivity, confidence-gap/entropy analysis, and confident failure modes that simple threshold guardrails do not reliably catch |
 | [deep-learning-computer-vision](https://github.com/brandonwaltersai/deep-learning-computer-vision) | Controlled CNN architecture experiments plus a DCGAN trained from scratch on Fashion-MNIST — 91.86% best test accuracy with generated samples, loss curves, and limitations documented |
 | [deepdream-experiment-runner](https://github.com/brandonwaltersai/deepdream-experiment-runner) | Config-driven InceptionV3 DeepDream experiments with tiled gradients, failure isolation, resume behavior, quantitative image-change metrics, and documented provenance |
-| [ensemble-methods-benchmark](https://github.com/brandonwaltersai/ensemble-methods-benchmark) | Bagging vs. boosting vs. stacking under class imbalance, including ROC-based threshold tuning and model-comparison tradeoffs |
 
 <details>
-<summary><b>Supporting ML and reliability studies</b></summary>
+<summary><b>Supporting ML and statistical studies</b></summary>
 
 | Repo | Demonstrates |
 |---|---|
-| [zero-shot-reliability](https://github.com/brandonwaltersai/zero-shot-reliability) | CLIP label-set sensitivity, confidence-gap/entropy analysis, and failure modes that simple confidence thresholds miss |
+| [ensemble-methods-benchmark](https://github.com/brandonwaltersai/ensemble-methods-benchmark) | Bagging vs. boosting vs. stacking under class imbalance, plus ROC-based threshold tuning |
 | [credit-default-classification](https://github.com/brandonwaltersai/credit-default-classification) | Class weighting, cross-validation, balanced accuracy, and ROC AUC on an imbalanced credit-risk dataset |
 | [bank-marketing-decision-tree](https://github.com/brandonwaltersai/bank-marketing-decision-tree) | Decision-tree tuning under class imbalance and the operational cost of optimizing the wrong metric |
 | [whas500-survival-analysis](https://github.com/brandonwaltersai/whas500-survival-analysis) | Kaplan-Meier, log-rank testing, Cox proportional hazards, and concordance evaluation |
