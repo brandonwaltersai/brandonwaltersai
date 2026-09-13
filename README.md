@@ -29,26 +29,7 @@ My work combines hands-on AI/ML engineering with 20+ years across cybersecurity,
 | [deep-learning-computer-vision](https://github.com/brandonwaltersai/deep-learning-computer-vision) | Controlled CNN architecture experiments plus a DCGAN trained from scratch on Fashion-MNIST — 91.86% best test accuracy with generated samples, loss curves, and limitations documented |
 | [ensemble-methods-benchmark](https://github.com/brandonwaltersai/ensemble-methods-benchmark) | Bagging vs. boosting vs. stacking under class imbalance, including ROC-based threshold tuning and model-comparison tradeoffs |
 
-<details>
-<summary><b>Additional engineering work</b></summary>
-
-### Applied ML, experimentation, and analytics
-| Repo | Demonstrates |
-|---|---|
-| [deepdream-experiment-runner](https://github.com/brandonwaltersai/deepdream-experiment-runner) | InceptionV3 DeepDream experimentation with tiled gradients, controlled parameter variation, run logging, and image-difference/edge-density evaluation |
-| [reinforcement-learning-fundamentals](https://github.com/brandonwaltersai/reinforcement-learning-fundamentals) | Tabular Q-learning from scratch with NumPy for grid-world and graph-based route finding |
-| [stakeholder-analytics-bi](https://github.com/brandonwaltersai/stakeholder-analytics-bi) | Python model outputs translated into stakeholder-facing Tableau analytics |
-| [applied-ml-notebooks](https://github.com/brandonwaltersai/applied-ml-notebooks) | Feature selection, NLP, clustering, and applied modeling fundamentals |
-
-### Tools and automation
-| Repo | Demonstrates |
-|---|---|
-| [msda-notebook-renamer](https://github.com/brandonwaltersai/msda-notebook-renamer) | Heuristic file classification with confidence scoring and correction-memory learning |
-| [youtube-transcript-fetcher](https://github.com/brandonwaltersai/youtube-transcript-fetcher) | Resilient batch transcript workflow with API-version detection, retry/backoff, and transcript quality checks |
-| [audio-transcription-tool](https://github.com/brandonwaltersai/audio-transcription-tool) | Batch audio-to-text with faster-whisper, long-audio chunking, presets, and multi-format subtitle output |
-| [pdf-batch-toolkit](https://github.com/brandonwaltersai/pdf-batch-toolkit) | Batch PDF inspection and conversion workflow with audit-manifest output |
-
-</details>
+Additional engineering work is being reviewed and packaged for public release. I prioritize a smaller set of reproducible, well-documented repositories over publishing every academic or exploratory artifact.
 
 ## Design philosophy
 The common thread across my AI work is **safe failure over confident failure**. Unsupported RAG answers are blocked by code-level citation checks, low-confidence classifier decisions are routed to human review, and evaluation artifacts document where systems are weak rather than hiding failure modes behind aggregate metrics.
