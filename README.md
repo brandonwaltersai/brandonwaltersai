@@ -21,7 +21,7 @@ My work combines hands-on AI/ML engineering with 20+ years across cybersecurity,
 - Apache Spark / PySpark · scikit-learn · TensorFlow / Keras
 - Secure mission and regulated environments
 
-## Featured work
+## Featured engineering work
 
 | Repo | Engineering signal |
 |---|---|
@@ -31,6 +31,20 @@ My work combines hands-on AI/ML engineering with 20+ years across cybersecurity,
 | [deep-learning-computer-vision](https://github.com/brandonwaltersai/deep-learning-computer-vision) | Controlled CNN architecture experiments plus a DCGAN trained from scratch on Fashion-MNIST — 91.86% best test accuracy with generated samples, loss curves, and limitations documented |
 | [deepdream-experiment-runner](https://github.com/brandonwaltersai/deepdream-experiment-runner) | Config-driven InceptionV3 DeepDream experiments with tiled gradients, failure isolation, resume behavior, quantitative image-change metrics, and documented provenance |
 | [ensemble-methods-benchmark](https://github.com/brandonwaltersai/ensemble-methods-benchmark) | Bagging vs. boosting vs. stacking under class imbalance, including ROC-based threshold tuning and model-comparison tradeoffs |
+
+<details>
+<summary><b>Supporting ML and reliability studies</b></summary>
+
+| Repo | Demonstrates |
+|---|---|
+| [zero-shot-reliability](https://github.com/brandonwaltersai/zero-shot-reliability) | CLIP label-set sensitivity, confidence-gap/entropy analysis, and failure modes that simple confidence thresholds miss |
+| [credit-default-classification](https://github.com/brandonwaltersai/credit-default-classification) | Class weighting, cross-validation, balanced accuracy, and ROC AUC on an imbalanced credit-risk dataset |
+| [bank-marketing-decision-tree](https://github.com/brandonwaltersai/bank-marketing-decision-tree) | Decision-tree tuning under class imbalance and the operational cost of optimizing the wrong metric |
+| [whas500-survival-analysis](https://github.com/brandonwaltersai/whas500-survival-analysis) | Kaplan-Meier, log-rank testing, Cox proportional hazards, and concordance evaluation |
+
+</details>
+
+*Portfolio lists above include Brandon-authored/refactored work only. Forked repositories on this account are retained as reference material and are not presented as original portfolio projects.*
 
 ## Design philosophy
 The common thread across my AI work is **safe failure over confident failure**. Unsupported RAG answers are blocked by code-level citation checks, low-confidence classifier decisions are routed to human review, and evaluation artifacts document where systems are weak rather than hiding failure modes behind aggregate metrics.
