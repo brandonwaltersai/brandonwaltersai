@@ -1,9 +1,9 @@
 # Brandon Walters
-### Applied AI Engineer | AI Security & Mission Systems
+### Applied AI/ML Engineer
 
-I build AI systems for environments where **reliability, security, and governance matter** — retrieval-grounded LLM applications, production ML services, human-in-the-loop decision systems, distributed machine learning, and deep-learning experiments with measurable evaluation.
+Building reliable RAG, NLP and ML systems for mission and enterprise environments. **TS/SCI.**
 
-My work combines hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, and secure mission systems. I focus on moving AI beyond the demo: explicit failure handling, reproducible evaluation, secure deployment patterns, and human escalation when a system should not act autonomously.
+I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, secure mission systems, and enterprise modernization. My focus is moving AI beyond the demo through measurable evaluation, explicit failure handling, secure deployment patterns, and human escalation when a system should not act autonomously.
 
 ![MSDA](https://img.shields.io/badge/M.S.-Data%20Analytics%20(AI%2FML)-3E6B8A)
 ![BA Cert](https://img.shields.io/badge/Grad%20Cert-Business%20Analytics-3E6B8A)
