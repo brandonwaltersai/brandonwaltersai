@@ -1,7 +1,7 @@
 # Brandon Walters
 ### Applied AI/ML Engineer
 
-Building reliable RAG, NLP and ML systems for mission and enterprise environments. **TS/SCI.**
+Building reliable RAG, NLP and ML systems for mission and enterprise environments. **Active clearance.**
 
 I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, secure mission systems, and enterprise modernization. My focus is moving AI beyond the demo through measurable evaluation, explicit failure handling, secure deployment patterns, and human escalation when a system should not act autonomously.
 
