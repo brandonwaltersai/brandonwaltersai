@@ -3,7 +3,7 @@
 
 Building reliable, secure AI systems for mission and enterprise environments. **Active clearance.**
 
-I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, secure mission systems, and enterprise modernization. My focus is moving AI beyond the demo through measurable evaluation, explicit failure handling, reproducible deployment, containerized AI/ML workflows, and human escalation when a system should not act autonomously.
+I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, secure mission systems, and enterprise modernization. My focus is moving AI beyond the demo through measurable evaluation, explicit failure handling, reproducible deployment, containerized AI/ML workflows, GPU-aware engineering, and human escalation when a system should not act autonomously.
 
 ![MSDA](https://img.shields.io/badge/M.S.-Data%20Analytics%20(AI%2FML)-3E6B8A)
 ![Cyber](https://img.shields.io/badge/M.S.-Cyber%20Operations-3E6B8A)
@@ -14,15 +14,11 @@ I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intell
 **Selected results:** 100% grounded-answer rate on a 120-prompt RAG evaluation with 98.3% retrieval coverage and 89.2% escalation appropriateness · macro-F1 0.760 vs. 0.042 majority-class baseline on a nine-class NLP service · Spark LinearSVC training in ~3 minutes versus ~43 minutes for nonlinear RBF SVM with a substantial minority-recall tradeoff · 91.86% test accuracy across controlled CNN architecture experiments.
 
 ## Engineering focus
-- Secure applied AI and retrieval-augmented generation
-- AI security, reliable AI, and safe-failure design
-- AI infrastructure, containerized model serving, and MLOps foundations
-- NLP, classical ML, distributed ML, and deep learning
-- Model evaluation, observability, and human-in-the-loop workflows
-- Docker · Docker Compose · Kubernetes · FastAPI · CI/CD
-- GPU-enabled containers · CUDA Python · CuPy · RAPIDS cuDF · Numba
-- Apache Spark / PySpark · scikit-learn · TensorFlow / Keras
-- Requirements engineering, Agile delivery, and secure mission environments
+- **AI / LLM Engineering:** RAG, hybrid retrieval, FAISS, citation grounding, safe escalation, Hugging Face Transformers, PEFT/LoRA/QLoRA, instruction tuning, sentence embeddings, NLP, and model evaluation
+- **AI Infrastructure / MLOps:** Docker, Docker Compose, container networking, FastAPI, `uv`, Ollama, GPU-enabled containers, Kubernetes, CI/CD, regression testing, and reproducible ML environments
+- **GPU / Accelerated Computing:** CUDA Python, CuPy, RAPIDS cuDF, Numba, custom CUDA kernels, host/device memory, shared memory, memory coalescing, and GPU performance concepts
+- **Distributed Data / ML:** Apache Spark / PySpark, MLlib, distributed model benchmarking, ETL, and data-lake workflows
+- **Secure Mission Systems:** threat intelligence, threat hunting, Splunk, Zero Trust, RMF/ATO, NIST 800-37/800-53, cross-domain solutions, requirements engineering, and technical delivery
 
 ## Featured engineering work
 
@@ -49,20 +45,29 @@ I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intell
 
 ## Technical development
 
-Current development is concentrated on the production side of AI systems:
+Current technical development is concentrated on the production side of AI systems:
 
-- **Containerized AI/ML:** Docker, Docker Compose, container networking, volumes, reproducible Python environments with `uv`, GPU-enabled model serving, multi-service application patterns, and orchestration concepts
+- **Open-source LLM systems:** Hugging Face Transformers, GPU inference, PEFT/LoRA/QLoRA, quantization, instruction tuning, RAG, sentence embeddings, benchmarking, and model cards
+- **Production-inference concepts:** vLLM architecture, KV-cache memory pressure, PagedAttention, continuous batching, request scheduling, concurrency, streaming, and latency-vs-throughput tradeoffs
+- **Containerized AI/ML:** Docker, Docker Compose, container networking, volumes, reproducible Python environments with `uv`, Ollama/Open WebUI, GPU-enabled model serving, and multi-service application patterns
 - **GPU-accelerated computing:** CUDA Python, CuPy, RAPIDS cuDF, Numba, custom CUDA kernels, thread/block/grid execution, GPU memory movement, shared memory, and memory coalescing
 - **ML data engineering:** cleaning and wrangling, imputation, EDA, outlier analysis, feature engineering, encoding, scaling, and transformation
-- **Engineering delivery:** requirements elicitation, traceability, verification/validation, change control, Scrum, user stories, prioritization, and scaled Agile concepts
 
-The direction is deliberate: **secure AI systems + AI infrastructure for mission-critical environments**.
+The distinction matters: containerization, CUDA/GPU exercises, open-source-model deployment, QLoRA/RAG, and benchmarking are hands-on training; vLLM, multi-GPU scaling, autoscaling, and large-scale observability are currently represented as studied production concepts rather than claimed production ownership.
+
+## Education & credentials
+- **M.S., Data Analytics — University of Maryland Global Campus | May 2026 | GPA 3.80**
+- **Graduate Certificate, Business Analytics — University of Maryland Global Campus | May 2026**
+- **M.S., Cyber Operations — University of Maryland Global Campus | June 2022 | GPA 4.00**
+- **B.A., Intelligence Studies, Concentration in Intelligence Operations — American Military University**
+- **PMP® | CompTIA SecurityX | Security+ CE | Data+ ce | Network+ CE | CEH | CNDA**
+- **Clearance: Active Clearance**
 
 ## Design philosophy
 
 The common thread across my AI work is **safe failure over confident failure**. Unsupported RAG answers are blocked by code-level citation checks, low-confidence classifier decisions are routed to human review, and evaluation artifacts document where systems are weak rather than hiding failure modes behind aggregate metrics.
 
-I care about the full path from **data → model → API → container → orchestration → monitoring → security → operational use**.
+I care about the full path from **data → model → API → container → GPU/inference → orchestration → monitoring → security → operational use**.
 
 *Portfolio lists above include Brandon-authored/refactored work only. Forked repositories on this account are retained as reference material and are not presented as original portfolio projects.*
 
