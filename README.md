@@ -5,7 +5,7 @@ Building reliable, secure AI systems for mission and enterprise environments. **
 
 I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, secure mission systems, and enterprise modernization. My focus is moving AI beyond the demo through measurable evaluation, explicit failure handling, reproducible deployment, containerized AI/ML workflows, GPU-aware engineering, and human escalation when a system should not act autonomously.
 
-![MSDA](https://img.shields.io/badge/M.S.-Data%20Analytics%20(AI%2FML)-3E6B8A)
+![MSDA](https://img.shields.io/badge/M.S.-Data%20Analytics-3E6B8A)
 ![Cyber](https://img.shields.io/badge/M.S.-Cyber%20Operations-3E6B8A)
 ![BA Cert](https://img.shields.io/badge/Grad%20Cert-Business%20Analytics-3E6B8A)
 ![PMP](https://img.shields.io/badge/PMI-PMP%C2%AE-3E6B8A)
