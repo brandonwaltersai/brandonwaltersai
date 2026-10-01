@@ -1,7 +1,7 @@
 # Brandon Walters
 ### Secure AI Systems Engineer | AI Security & Mission Systems
 
-Building reliable, secure AI systems for mission and enterprise environments. **Active clearance.**
+Building secure, reliable AI systems for mission and enterprise environments. **Active Clearance.**
 
 I combine hands-on AI/ML engineering with 20+ years across cybersecurity, intelligence, secure mission systems, and enterprise modernization. My focus is moving AI beyond the demo through measurable evaluation, explicit failure handling, reproducible deployment, containerized AI/ML workflows, GPU-aware engineering, and human escalation when a system should not act autonomously.
 
